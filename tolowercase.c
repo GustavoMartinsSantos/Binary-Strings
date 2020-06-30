@@ -6,7 +6,7 @@ int main (void) {
     char text[10];
     scanf("%s",&text);
 
-    printf("The hexadecimals of this text are: ");
+    printf("The decimals of this text are: ");
     for (int i = 0; i < strlen(text); i++)
         printf("%i ", text[i]);
     
